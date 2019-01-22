@@ -1,0 +1,26 @@
+{
+    "LocalDependencies": [
+        "Map.lua",
+        "MapExample.lua",
+        "cfg.lua",
+        "db2.lua",
+        "mainExample.lua",
+        "sqlAPI.lua",
+        "sqlAPIExample.lua",
+        "sqlScripts.lua"
+    ],
+    "LuaDependencies": [
+        "dbs.api",
+        "encrypt.password",
+        "retry"
+    ],
+    "OtherDependencies": [
+        "demo.vmd"
+    ],
+    "timestamp": "1548041548",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

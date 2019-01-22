@@ -1,0 +1,16 @@
+<channel
+   name="test"
+   guid="818E47D23B33AB1A6F2A65EF577815D9"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_mapper
+      guid="test-From-GcdbL1HCxx488P"
+      commit_id="fb6ae289b3871a7ac18cfb427745377b67a9ddcf"
+      commit_comment="empty commit"
+      poll_time="10000">
+   </from_mapper>
+</channel>

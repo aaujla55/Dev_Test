@@ -1,0 +1,17 @@
+{
+    "LocalDependencies": [
+        "db/procedures_example.lua",
+        "main_example.lua"
+    ],
+    "LuaDependencies": [],
+    "OtherDependencies": [
+        "Procedures Indication Mappings.csv.zip",
+        "mappings.dbs"
+    ],
+    "timestamp": "1548090468",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

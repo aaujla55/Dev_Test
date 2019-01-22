@@ -1,0 +1,39 @@
+<channel
+   name="Tutorial: CSV code maps to DB"
+   guid="533804DC3BF9A0A5EF2B6E17B47F8276"
+   description="We will import clinical code mappings from a CSV file and load them into a database, which will support our lookup web service."
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="Tutorial_CSV_code_maps_to_DB-To-vMmaDf9pSaC0Z9"
+      commit_id="b9745d3513ddf5d5c9e570430bdb82c4607e33be"
+      commit_comment="Import Translators: importing channels for traning">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="1B8F7ECDF16B7DEF5ECC8C767D913FD2"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_file
+      file_type="ArbitraryText"
+      prepend_file_info="false"
+      eof_char=""
+      poll_time="10000"
+      max_message_size="15728640"
+      source_dir="C:/Users/rwang/Documents/QuickStart/Building A Web Server/Training/procedures/"
+      source_file_extension="csv"
+      archive_processed_files="true"
+      processed_dir="C:/Users/rwang/Documents/QuickStart/Building A Web Server/"
+      error_dir="C:/Users/rwang/Documents/QuickStart/Building A Web Server/"
+      ignored_segments=""
+      segment_delimiter="0x0D"
+      message_delimiter="0x0A"
+      minimum_file_age="3"
+      escape_8bit="false"
+      escape_char=" "
+      ftp_username="admin"
+      ftp_password="enBhG26kTcpZ6wJm6HbMOlLs6B2ed/paXqXHTMYM73w="
+      sftp_authentication_method="user_password"
+      use_ftp="false"/>
+</channel>
